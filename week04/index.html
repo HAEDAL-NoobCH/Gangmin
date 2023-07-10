@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QOiE1hOjbDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <!-- Video info & Up next -->
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#명탐정코난_흑철의어영</li>
+            <li>#명탐정코난극장판</li>
+            <li>#코난</li>
+            <li>#사실범인은코난이아닐까?</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >극장판 [명탐정 코난 : 흑철의 어영] 메인 예고편 공개! | 7월 20일 극장 대개봉!
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">조회수 302,608회 2주전</span>
+        </div>
+        <!-- Actions buttons -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/avatar.png" alt="" />
+            <div class="info">
+              <span class="name">Tooniverse-투니버스</span>
+              <span class="subscribers">130만</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/img01.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >작가가 셀프 폭로한 코난의 결말을 알아보자 (코난 마지막 화)</span
+              >
+              <span class="name">나바나</span>
+              <span class="views">조회수 128만회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/img02.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >❗️이게 나왔다❗️이번에는 "범인이 주인공"이고 "남도일이 빌런"인 넷플릭스 신작 애니《몰아보기》</span
+              >
+              <span class="name">힐드림</span>
+              <span class="views">조회수 100만회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/img03.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >드디어 등장한 "그 인물".. 20년간 숨겨져왔던 떡밥이 풀렸다..!! (코난 최신화)
+                </span
+              >
+              <span class="name">나바나</span>
+              <span class="views">조회수 113만회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
