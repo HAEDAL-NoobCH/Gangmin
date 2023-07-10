@@ -60,7 +60,13 @@
   
   header .icons .fa-search {
     margin-right: var(--spacing);
+    background-color: transparent;
   }
+
+  .header .icons .fa-ellipsis-v { 
+    background-color: transparent;
+  }
+
   
   /* Video player */
   .player {
@@ -221,6 +227,7 @@
   .upNext .item .moreBtn {
     flex-basis: 5%;
     height: 100%;
+    background-color: transparent;
   }
   
   .upNext .item .itemInfo .title {
